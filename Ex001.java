@@ -1,4 +1,5 @@
 /*
+Lista 1
 01 (Casting)  
 Faça um programa que solicite ao usuário um número decimal, converta-o para inteiro e exiba o resultado.
 */
