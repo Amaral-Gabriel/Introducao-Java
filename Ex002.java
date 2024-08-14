@@ -1,4 +1,6 @@
-/*02 (Calculadora)   
+/*
+Lista 1
+02 (Calculadora)   
 
 Escreva um programa que solicite ao usuário dois números inteiros, e realize as operações de soma, subtração, divisão e multiplicação. Ao final, exiba o resultado
 */
