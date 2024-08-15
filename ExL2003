@@ -1,0 +1,41 @@
+/*
+Lista 2
+3.  Calculadora Simples
+
+Escreva um programa em Java que receba dois números e um operador (+, -, *, /).
+Use a estrutura condicional Switch para realizar a operação indicada e exiba o resultado. Se o operador for inválido, exiba uma mensagem de erro.
+*/
+
+import java.util.Scanner;
+public class ExL2003 {
+    public static void main(String[] args){
+
+        System.out.print("Digite o primeiro número: ");
+        Scanner entrada1 = new Scanner(System.in);
+        double num1 = entrada1.nextDouble();
+
+        System.out.print("Digite o primeiro número: ");
+        Scanner entrada2 = new Scanner(System.in);
+        double num2 = entrada2.nextDouble();
+
+        System.out.print("Digite a operação (+, -, *, /): ");
+        Scanner entrada3 = new Scanner(System.in);
+        char ope = entrada3.nextLine().charAt(0);
+
+        switch (ope){
+            case '+':
+                System.out.println(num1+" + "+num2+" = "+(num1+num2));
+                break;
+            case '-':
+                System.out.println(num1+" - "+num2+" = "+(num1-num2));
+                break;
+            case '*':
+                System.out.println(num1+" X "+num2+" = "+(num1*num2));
+                break;
+            case '/':
+                System.out.println(num1+" / "+num2+" = "+(num1/num2));
+                break;
+        }
+
+    }
+}
