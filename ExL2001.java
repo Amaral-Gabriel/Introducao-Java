@@ -5,7 +5,7 @@ Escreva um programa em Java que receba um número inteiro e determine se ele é 
 */
 
 import java.util.Scanner;
-public class Ex001L2 {
+public class L2Ex001 {
     public static void main(String[] args){
 
         System.out.println("Digite o número: ");
