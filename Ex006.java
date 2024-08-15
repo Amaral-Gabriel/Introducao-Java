@@ -8,18 +8,20 @@ import java.util.Scanner;
 public class Ex006 {
 	public static void main(String[] args){
 
-        System.out.println("Digite a largura: ");
+        System.out.println("Digite o primeiro número: ");
 		Scanner entrada1 = new Scanner(System.in);
-		double largura = entrada1.nextDouble();
+		int num1 = entrada1.nextInt();
 
-        System.out.println("Digite a altura: ");
+        System.out.println("Digite o segundo número: ");
         Scanner entrada2 = new Scanner(System.in);
-        double altura = entrada2.nextDouble();
+        int num2 = entrada2.nextInt();
 
-		double area = altura * largura;
-        double perimetro = (altura + largura) * 2;
-
-		System.out.println("ÁREA: "+area);
-        System.out.println("PERIMETRO: "+perimetro);
+        if (num1 > num2){
+            System.out.println("O primeiro número é maior!");
+        }   else if(num1 < num2){
+                System.out.println("O primeiro número é menor!");
+        }   else{
+                System.out.println("Os dois números são iguais.");
+        }
 	}
 }
