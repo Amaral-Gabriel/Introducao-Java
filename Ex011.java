@@ -20,3 +20,4 @@ public class Ex011 {
         System.out.println(Math.pow(base, expo));
 	}
 }
+C:\Users\gabri\OneDrive\Área de Trabalho\Introducao-Java\Ex001.java
